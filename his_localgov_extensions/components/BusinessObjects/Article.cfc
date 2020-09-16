@@ -1,7 +1,7 @@
 <!--- 
 	
 	$Archive: /LocalGov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/components/BusinessObjects/Article.cfc $
-	$Author: Ohilton $
+	$Author: bhalper $
 	$Revision: 45 $
 	$Date: 7/09/10 14:21 $
 
