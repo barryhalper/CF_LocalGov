@@ -1,7 +1,7 @@
 <!--- 
 	
 	$Archive: /localgov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/components/ApplicationObjects/config.cfc $
-	$Author: Ohilton $
+	$Author: Bhalper $
 	$Revision: 11 $
 	$Date: 31/03/10 16:51 $
 

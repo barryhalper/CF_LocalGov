@@ -1,7 +1,7 @@
 <!--- 
 	
 	$Archive: /localgov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/components/BusinessObjects/Awards.cfc $
-	$Author: Ohilton $
+	$Author: Bhalper $
 	$Revision: 4 $
 	$Date: 10/12/09 11:00 $
 

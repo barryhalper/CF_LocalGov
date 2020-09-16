@@ -1,7 +1,7 @@
 <!--- 
 	
 	$Archive: /localgov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/components/DataAccessObjects/UserDAO.cfc $
-	$Author: Ohilton $
+	$Author: Bhalper $
 	$Revision: 16 $
 	$Date: 25/01/10 16:05 $
 

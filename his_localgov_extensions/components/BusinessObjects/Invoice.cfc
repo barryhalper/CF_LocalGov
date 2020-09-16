@@ -1,7 +1,7 @@
 <!--- 
 	
 	$Archive: /localgov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/components/BusinessObjects/Invoice.cfc $
-	$Author: Ohilton $
+	$Author: Bhalper $
 	$Revision: 8 $
 	$Date: 18/08/09 16:29 $
 

@@ -1,7 +1,7 @@
 <!--
 	
 	$Archive: /localgov.co.uk/wwwroot/his_localgov/private/his_localgov_extensions/customtags/DenyAccess.cfm $
-	$Author: Ohilton $
+	$Author: Bhalper $
 	$Revision: 2 $
 	$Date: 18/05/09 16:35 $
 
