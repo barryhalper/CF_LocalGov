@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<path>
+	
+	<includepath>/his_LocalGov/</includepath>
+	
+	<sitepath>http://staging.localgov.co.uk/</sitepath>	
+	<sitedir>C:\home\vhosts\vhosts\histest.com\httpdocs\</sitedir>	
+
+	<adminpath>http://admin.localgov.co.uk/</adminpath>	
+	<admindir>C:\home\vhosts\vhosts\adminlocalgov.co.uk\httpdocs\</admindir>	
+	
+	<invoicedir>C:\home\vhosts\vhosts\histest.com\private\his_localgov_invoices\</invoicedir>	
+	<accountsdir>C:\home\vhosts\vhosts\histest.com\private\his_localgov_accounts\</accountsdir>	
+
+	<uploadimgdir>C:\home\vhosts\vhosts\histest.com\httpdocs\view\images\uploaded\</uploadimgdir>	
+	<uploadimgpath>http://staging.localgov.co.uk/view/images/uploaded/</uploadimgpath>	
+
+	<!--set url path & directory path to various folders-->
+	<imagepath>view/images/</imagepath>	
+	<imagedir>view\images\</imagedir>
+	
+	<jsdir>extends\javascripts\</jsdir>	
+	<jspath>extends/javascripts/</jspath>
+	
+	<adpath>view/images/banners/</adpath>	
+	<addir>view\images\banners\</addir>
+	
+	<!--set xpath to jobs in imported/exported xml jobs-->
+	<jobsxpath>/jobs/job</jobsxpath>
+	<jobsxmlspath>extends/xml/jobs/</jobsxmlspath>	
+	<jobxmlsdir>extends\xml\jobs\</jobxmlsdir>
+	
+	<eventoutlookdir>events\outlook\</eventoutlookdir>
+	<eventlogodir>view\images\events\</eventlogodir>
+	<eventlogopath>view/images/events/</eventlogopath>
+	
+	<joblogodir>view\images\jobs\</joblogodir>
+	<joblogopath>view/images/jobs/</joblogopath>
+	
+	<adlogodir>view\adsmedia\</adlogodir>
+	<adlogopath>view/adsmedia/</adlogopath>
+	
+	<cologodir>view\images\companies\</cologodir>
+	<cologopath>view/images/companies/</cologopath>
+	
+	<errorpath>extends/error/</errorpath>	
+	<errordir>extends\error\</errordir>
+	
+	<emailpath>view/email/</emailpath>	
+	<emaildir>view\email\</emaildir>
+	
+	
+	
+</path>

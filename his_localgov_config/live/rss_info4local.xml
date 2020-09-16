@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss>
+	<feed_url type="rss">http://www.info4local.gov.uk/static/rssFeed/documenttypes/Latest10PublicationsRSS.xml</feed_url>
+	<feed_url type="rss">http://www.info4local.gov.uk/static/rssFeed/documenttypes/Latest10RelatedLinksRSS.xml </feed_url>
+	<feed_url type="rss">http://www.info4local.gov.uk/static/rssFeed/documenttypes/Latest10NewsLinksRSS.xml  </feed_url>
+	
+</rss>

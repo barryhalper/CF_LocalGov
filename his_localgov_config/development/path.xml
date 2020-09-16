@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<path>
+	
+	<includepath>/his_LocalGov/</includepath>
+	
+	<sitepath>http://127.0.0.1/his_localgov/</sitepath>	
+	<sitedir>C:\Inetpub\wwwroot\his_localgov\</sitedir>	
+
+	<adminpath>http://127.0.0.1/his_localgov_admin/</adminpath>	
+	<admindir>C:\Inetpub\wwwroot\his_localgov_admin\</admindir>	
+	
+	<uyepath>http://127.0.0.1/his_localgov_uye/</uyepath>	
+	<uyedir>C:\Inetpub\wwwroot\his_localgov_uye\</uyedir>	
+	
+	<invoicedir>C:\Inetpub\wwwroot\his_localgov\private\his_localgov_invoices\</invoicedir>	
+	<accountsdir>C:\Inetpub\his_localgov_accounts\</accountsdir>
+	
+	<statsdir>C:\Inetpub\wwwroot\his_localgov\stats\logs\W3SVC21348\</statsdir>	
+	<statsuploaddir>C:\Inetpub\wwwroot\his_localgov\stats\logs\upload\</statsuploaddir>
+
+	<uploadimgdir>C:\Inetpub\wwwroot\his_localgov\view\images\uploaded\</uploadimgdir>	
+	<uploadimgpath>http://127.0.0.1/his_localgov/view/images/uploaded/</uploadimgpath>	
+
+	<!--set url path & directory path to various folders-->
+	<imagepath>view/images/</imagepath>	
+	<imagedir>view\images\</imagedir>
+	
+	<jsdir>extends\javascripts\</jsdir>	
+	<jspath>extends/javascripts/</jspath>
+	
+	<adpath>view/images/banners/</adpath>	
+	<addir>view\images\banners\</addir>
+	
+	<rsspath>extends/xml/</rsspath>
+	<rssdir>extends\xml\</rssdir>
+	
+	<!--set xpath to jobs in imported/exported xml jobs-->
+	<jobsxpath>/jobs/job</jobsxpath>
+	<jobsxmlspath>extends/xml/jobs/</jobsxmlspath>	
+	<jobxmlsdir>extends\xml\jobs\</jobxmlsdir>
+	
+	<eventoutlookdir>events\outlook\</eventoutlookdir>
+	<eventlogodir>view\images\events\</eventlogodir>
+	<eventlogopath>view/images/events/</eventlogopath>
+	
+	<joblogodir>view\images\jobs\</joblogodir>
+	<joblogopath>view/images/jobs/</joblogopath>
+	
+	<adlogodir>view\adsmedia\</adlogodir>
+	<adlogopath>view/adsmedia/</adlogopath>
+	
+	<cologodir>view\images\companies\</cologodir>
+	<cologopath>view/images/companies/</cologopath>
+	
+	<errorpath>extends/error/</errorpath>	
+	<errordir>extends\error\</errordir>
+	
+	<emailpath>view/email/</emailpath>	
+	<emaildir>view\email\</emaildir>
+	
+	<jobsectormap>extends\xml\jobs\</jobsectormap>	
+	
+	<assets>view/images/curve/assets/</assets>
+	
+	<slidsPath>view/images/slide_images/</slidsPath>
+	<slidesDir>view\images\slide_images</slidesDir>
+	
+	<services>http://127.0.0.1/LocalGov_services/</services>
+		
+</path>

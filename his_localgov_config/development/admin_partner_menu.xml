@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+	
+	<item link="" name="JOBS"> 
+		<menu> 
+					<item link="index.cfm?method=partners.index"		name="-Home"/> 
+					<item link="index.cfm?method=partners.add"			name="-Create"/> 
+					<item link="index.cfm?method=partners.search"		name="-Search"/> 
+					<item link="index.cfm?method=partners.latest"		name="-Recent"/>
+
+				</menu>
+			 
+		
+	</item>									
+	
+		
+		
+</menu>

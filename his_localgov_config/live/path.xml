@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<path>
+	
+	<includepath>/his_LocalGov/</includepath>
+	
+	<sitepath>http://www.localgov.co.uk/</sitepath>	
+	<sitedir>C:\inetpub\wwwroot\LocalGov\website\</sitedir>	
+
+	<adminpath>http://admin.localgov.co.uk/</adminpath>	
+	<admindir>C:\inetpub\wwwroot\LocalGov\admin\</admindir>	
+	
+	<invoicedir>C:\inetpub\wwwroot\LocalGov\private\his_localgov_invoices\</invoicedir>	
+	<accountsdir>C:\inetpub\wwwroot\LocalGov\private\his_localgov_accounts\</accountsdir>	
+
+	<uploadimgdir>C:\inetpub\wwwroot\LocalGov\website\view\images\uploaded\</uploadimgdir>	
+	<uploadimgpath>http://www.localgov.co.uk/view/images/uploaded/</uploadimgpath>	
+	
+	<rsspath>extends/xml/</rsspath>
+	<rssdir>extends\xml\</rssdir>
+
+	<!--set url path & directory path to various folders-->
+	<imagepath>view/images/</imagepath>	
+	<imagedir>view\images\</imagedir>
+	
+	<jsdir>extends\javascripts\</jsdir>	
+	<jspath>extends/javascripts/</jspath>
+	
+	<adpath>view/images/banners/</adpath>	
+	<addir>view\images\banners\</addir>
+	
+	<!--set xpath to jobs in imported/exported xml jobs-->
+	<jobsxpath>/jobs/job</jobsxpath>
+	<jobsxmlspath>extends/xml/jobs/</jobsxmlspath>	
+	<jobxmlsdir>extends\xml\jobs\</jobxmlsdir>
+	
+	<eventoutlookdir>events\outlook\</eventoutlookdir>
+	<eventlogodir>view\images\events\</eventlogodir>
+	<eventlogopath>view/images/events/</eventlogopath>
+	
+	<joblogodir>view\images\jobs\</joblogodir>
+	<joblogopath>view/images/jobs/</joblogopath>
+	
+	<adlogodir>view\adsmedia\</adlogodir>
+	<adlogopath>view/adsmedia/</adlogopath>
+	
+	<cologodir>view\images\companies\</cologodir>
+	<cologopath>view/images/companies/</cologopath>
+	
+	<errorpath>extends/error/</errorpath>	
+	<errordir>extends\error\</errordir>
+	
+	<emailpath>view/email/</emailpath>	
+	<emaildir>view\email\</emaildir>
+	
+	<jobsectormap>extends\xml\jobs\</jobsectormap>	
+	
+	<assets>view/images/curve/assets/</assets>
+	
+	<slidsPath>view/images/slide_images/</slidsPath>
+	<slidesDir>view\images\slide_images</slidesDir>
+	
+	<services>http://services.localgov.co.uk/</services>
+	
+</path>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+	<item link="" name="CONTENT"> 
+		<menu> 
+			<item link="#"	name="Articles"> 
+				<menu> 
+					<item link="index.cfm?method=news.create"				name="Create"/> 
+					<item link="index.cfm?method=news.quicksearch"			name="Edit"/>
+					<item link="index.cfm?method=news.quicksearch"			name="Search"/> 
+					<item link="index.cfm?method=news.advSearch"			name="Advanced Search"/>
+					<item link="index.cfm?method=news.edit&amp;tab=1"		name="Recent"/>
+					<item link="index.cfm?method=news.edit&amp;tab=2"		name="Deleted"/>
+					<item link="index.cfm?method=news.edit&amp;tab=3"		name="Scheduled"/>
+					<item link="index.cfm?method=news.checklist"			name="Checklist"/>
+					<item link="index.cfm?method=news.mostPopular"			name="Most Popular"/>
+					<item link="index.cfm?method=news.listcopy"				name="Copy Pages"/>
+					<item link="index.cfm?method=news.listEmails"			name="Emails"/>
+				</menu>
+			</item>
+			<item link="#" name="News Feeds"> 
+				<menu>
+					<item link="index.cfm?method=papers.index"				name="Update Keywords"/> 
+					<item link="index.cfm?method=papers.register"			name="Register Feed"/>
+					<item link="index.cfm?method=papers.remove"				name="Remove Feed"/>
+				</menu>
+			</item>
+
+			<item link="#" name="Business Feeds"> 
+				<menu>
+					<item link="index.cfm?method=papers.businesspapers"		name="Update Keywords"/> 
+					<item link="index.cfm?method=papers.businessregister"	name="Register Feed"/>
+					<item link="index.cfm?method=papers.businessremove"		name="Remove Feed"/>
+				</menu>
+			</item>
+			
+			
+			
+			<item link="index.cfm?method=news.ticker" name="News Ticker"> 
+			</item>
+			<item link="index.cfm?method=news.ticker&amp;lstSectorIDs=65&amp;section=business" name="Bus. Ticker"> 
+			</item>
+			<item link="index.cfm?method=news.articlecomments" name="Comments">
+				<menu> 
+					<item link="index.cfm?method=news.articlecomments"		name="Comments"/>
+					<item link="index.cfm?method=news.profanities"			name="Profanities"/>
+				</menu>
+			</item>
+		</menu> 
+	</item>									
+	
+	<item link="" name="HOME PAGE"> 
+		<menu>
+				<item link="index.cfm?method=homepage.publish"					   		name="-preview"/> 
+				<item link="index.cfm?method=homepage.publish"					   		name="-Publish"/> 
+				<item link="index.cfm?method=slide.edit"								name="-Promo Panel"/> 
+				
+				<item link="#" name="Directory"> 
+				<menu>
+					<item link="index.cfm?method=news.index&amp;vid=44357&amp;id=44357"			name="Copy"/> 
+					<item link="index.cfm?method=news.index&amp;vid=75265&amp;id=75265"			name="Statistic"/>
+					<item link="index.cfm?method=slide.edit&amp;panel=directory"				name="Promo Panel"/>
+				</menu>
+				</item>
+			</menu>
+			</item>					
+		
+	<item link="" name="USERS"> 
+		<menu> 
+			<item link="index.cfm?method=user.search" 			name="-Search"/> 
+			<item link="index.cfm?method=user.loggedin" 		name="-Logged in Now"/>
+			<item link="index.cfm?method=user.corpadminuser"	name="-Corporate Users"/> 	
+			<item link="index.cfm?method=marketing.search"	name="-Manage DNS"/> 	
+		</menu> 
+	</item>	
+	
+	<item link="" name="ORDERS"> 
+		<menu> 
+			<item link="index.cfm?method=orders.search" 			name="-Search"/> 
+			<item link="index.cfm?method=orders.totals" 			name="-Totals My Month"/>
+			<item link="index.cfm?method=reports.search" 			name="-Reports"/>
+		</menu> 
+	</item>										
+		
+	<item link="" name="SUBSCRIPTIONS"> 
+		<menu> 
+			<item link="index.cfm?method=subscribe.search"			name="-Search Orders"/>
+			<item link="index.cfm?method=subscribe.browseSubscribers" name="-Browse Subscribers"/> 	
+			<!--<item link="index.cfm?method=subscriptions.createaccesscodes"	name="-Access Codes"/>-->
+			<item link="index.cfm?method=subscribe.browseCampaigns"	name="-Browse Campaigns"/>
+		</menu> 
+	</item>									
+
+	<item link="" name="EVENTS"> 
+		<menu> 
+				<item link="index.cfm?method=events.add"		name="-Add"/> 
+				<item link="index.cfm?method=events.search"		name="-Edit"/>
+				<item link="index.cfm?method=events.browse"		name="-Browse"/>
+				<item link="index.cfm?method=events.search"		name="-Search"/> 
+				<item link="index.cfm?method=events.brintex"	name="-Brintex"/> 
+				<item link="index.cfm?method=events.sponsor"	name="-Sponsor"/> 
+		</menu> 
+	</item>									
+	<!--	
+	<item link="" name="DIRECTORY"> 
+		<menu> 
+			<item link="##" 								name="MYB" > 
+				<menu>
+					<item link="javascript:alert('Functionality in development.');"	name="Create"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Edit"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Delete"/>
+				</menu>
+			</item>
+			<item link="##" 								name="MYB Proc. Guide" > 
+				<menu>
+					<item link="javascript:alert('Functionality in development.');"	name="Create"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Edit"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Delete"/>
+				</menu>
+			</item>
+			<item link="##" 								name="MYB Sus. Comm." > 
+				<menu>
+					<item link="javascript:alert('Functionality in development.');"	name="Create"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Edit"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Delete"/>
+				</menu>
+			</item>
+			<item link="##" 								name="Surveyour Yearbook" > 
+				<menu>
+					<item link="javascript:alert('Functionality in development.');"	name="Create"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Edit"/> 
+					<item link="javascript:alert('Functionality in development.');"	name="Delete"/>
+				</menu>
+			</item>
+		</menu> 
+	</item>									
+	-->
+	<item link="" name="JOBS &amp; COMPANIES"> 
+		<menu> 
+			<item link="#" name="Jobs" > 
+				<menu>
+					<item link="index.cfm?method=jobs.add"			name="Create"/> 
+					<item link="index.cfm?method=jobs.search"		name="Search"/> 
+					<item link="index.cfm?method=jobs.latest"		name="Recent"/>
+
+				</menu>
+			</item> 
+			<item link="#" name="Companies" > 
+				<menu>
+					<item link="index.cfm?method=companies.edit"	name="Create"/> 
+					<item link="index.cfm?method=companies.Search"	name="Search"/> 
+					<item link="index.cfm?method=companies.delete"	name="Delete"/>
+					
+				</menu>
+			</item>
+			<item link="#" name="Partners" > 
+				<menu>
+					<item link="index.cfm?method=partners.latest"	name="Browse"/> 
+					<item link="index.cfm?method=partners.search"	name="Search"/> 
+					<item link="index.cfm?method=partners.edit"		name="Create"/> 
+				</menu>
+			</item>  
+		</menu> 
+	</item>									
+				
+	<item link="" name="CAREERS"> 
+		<menu> 
+			<item link="index.cfm?method=careers.sections" name="-Career Sections" > </item> 
+			<item link="index.cfm?method=careers.articles" name="-Section Articles" > </item> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="ADVERTISING"> 
+		<menu> 
+			<item link="#" name="Ads" > 
+				<menu>	
+					<item link="index.cfm?method=ads.add"			name="Create"/> 
+					<item link="index.cfm?method=ads.browse"		name="Browse"/> 
+				</menu>
+			</item>
+			<item link="#" name="Sector Ads" > 
+				<menu>	
+					<item link="index.cfm?method=sectorAds.edit"		name="Create"/> 
+					<item link="index.cfm?method=sectorAds.browse"		name="Browse"/> 
+				</menu>
+			</item>
+			<item link="#" name="Keyword Ads" > 
+				<menu>	
+					<item link="index.cfm?method=ads.AdKeyword"		name="Create"/> 
+					<item link="index.cfm?method=ads.search"		name="Search"/> 
+				</menu>
+			</item>
+			
+		</menu> 
+	</item>	
+	
+	
+	<item link="" name="NEWSLETTERS"> 
+		<menu> 
+			<item link="index.cfm?method=newsletter.edit" name="-Create"/>
+			<item link="index.cfm?method=newsletter.view"  name="-View "/>  
+			<item link="index.cfm?method=newsletter.view&amp;topicid=0"  name="-View Topics "/>
+			<item link="index.cfm?method=newsletter.genList" name="-User List"/>
+		</menu> 
+	</item>								
+	<!--
+	<item link="" name="SEARCH"> 
+		<menu> 
+			<item link="javascript:alert('Functionality in development.');" name="Quick Search"/> 
+			<item link="javascript:alert('Functionality in development.');" name="Advanced Search"/> 
+			<item link="javascript:alert('Functionality in development.');" name="FASTsearch"/> 
+			<item link="javascript:alert('Functionality in development.');" name="Search Tips"/> 
+		</menu> 
+	</item>	-->
+	<item link="" name="GOVEPEDIA"> 
+		<menu> 
+			<item link="index.cfm?method=govepedia.edit"	name="Create"/> 
+			<item link="index.cfm?method=govepedia.search"	name="Search"/>
+			<item link="index.cfm?method=govepedia.Browse"	name="Browse"/>
+		</menu> 
+	</item>									
+	<!--		
+	<item link="" name="NEED 2 KNOW"> 
+		<menu> 
+			<item link="javascript:alert('Functionality in development.');" name="Sub menu 1"/> 
+		</menu> 
+	</item>	-->
+	
+	<item link="" name="DATA SALES"> 
+		<menu> 
+			<item link="index.cfm?method=datasales.search" 			name="-Search orders"/> 
+			<item link="index.cfm?method=datasales.list" 			name="-View orders"/> 
+			<item link="#" name="Lists Seeds" >
+				<menu>	
+					<item link="index.cfm?method=datasales.editseed" name="Create"/> 
+					<item link="index.cfm?method=datasales.seeds"	name="Browse"/> 
+				</menu>
+			</item>
+		</menu> 
+	</item>
+	
+	<item link="" name="MENU"> 
+		<menu> 
+			<item link="index.cfm?method=menu.index" 						name="-Website Menu"/> 
+		</menu> 
+	</item>									
+							
+	<!--<item link="" name="LOG FILES"> 
+		<menu> 
+			<item link="javascript:alert('Functionality in development.');" name="-View Logfiles"/> 
+		</menu> 
+	</item>		-->
+							
+	<item link="" name="TRACKING"> 
+		<menu> 
+			<item link="index.cfm?method=tracking.index" 					name="-Register an issue"/> 
+			<item link="index.cfm?method=tracking.view" 					name="-View issues"/> 
+		</menu> 
+	</item>			
+			
+							
+	<item link="" name="BLOGS"> 
+		<menu> 
+			<item link="index.cfm?method=blog.list" 					name="-Browse"/> 
+			<item link="index.cfm?method=blog.edit" 					name="-Create"/> 
+		</menu> 
+	</item>	
+	
+	<item link="" name="LETTERS"> 
+		<menu> 
+			<item link="index.cfm?method=letter.home" 					name="-Letters"/>
+		</menu> 
+	</item>	
+	
+	<item link="" name="SURVEY"> 
+		<menu> 
+			<item link="index.cfm?method=survey.list" 					name="-Browse"/> 
+			<item link="index.cfm?method=survey.edit" 					name="-Create"/> 
+			<item link="index.cfm?method=survey.edit" 					name="-Search"/> 
+		</menu> 
+	</item>		
+	
+	<item link="" name="WEBINARS"> 
+		<menu> 
+			<item link="index.cfm?method=webinar.list" 					name="-Browse"/> 
+			<item link="index.cfm?method=webinar.edit" 					name="-Create"/> 
+		
+		</menu> 
+	</item>		
+			
+	<item link="" name="ADMIN TOOLS"> 
+		<menu> 
+			<!--<item link="javascript:alert('Functionality in development.');" name="-Clear Query Cache"/> 
+			<item link="javascript:alert('Functionality in development.');" name="-Refresh App Scope"/> -->
+			<item link="index.cfm?method=home.flushNews" name="-Refresh News"/> 
+			<item link="index.cfm?method=home.flushBusNews" name="-Refresh Bus. News"/> 
+			<item link="index.cfm?method=home.meta" name="-Amend MetaData"/> 
+			<item link="#" name="ADMIN USERS"> 
+				<menu> 
+					<item link="index.cfm?method=adminusers.browse" 				name="Browse"/> 
+					<item link="index.cfm?method=adminusers.edit" 					name="Create"/> 
+				</menu> 
+			</item>		
+		</menu> 
+	</item>									
+						
+		
+		
+</menu>

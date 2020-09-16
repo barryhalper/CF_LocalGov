@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<title>LocalGov.co.uk - [Staging]</title>
+	<environment>staging</environment>
+	
+	<appname>his_LocalGov</appname>
+	<mediacode>LGov</mediacode>
+	<magmediacode>MJ</magmediacode>
+	<submediacode></submediacode>
+	<accountsproductcode>LGWA</accountsproductcode>
+	
+	<!-- Datasources... -->
+	<dsn1>his_websites</dsn1>	
+	<dsn2>his_MYB</dsn2>	
+	<dsn3>his_Guides</dsn3>
+	<dsn6>LocalGov2005</dsn6>
+	<dsn8>BlueBook</dsn8>
+
+	<cachetime>CreateTimeSpan(0,0,0,0)</cachetime>
+	
+	<useProxy>0</useProxy>
+	
+	<productid>66</productid>
+	<newsproductids>6,7,8,9,48,66</newsproductids>
+	<hisproductids>6,7,8,9,12,48,65</hisproductids>
+	
+	<searchsectors>news,business news,jobs,people,organisations,events,govepedia,need 2 know,suppliers</searchsectors>
+	
+	<!-- Email addresses... -->
+	<mailsender>webmaster@localgov.co.uk </mailsender>
+	<errormailto>webmaster.localgov@hgluk.com</errormailto>
+	
+	<accounts>accounts@hgluk.com</accounts>
+	<customerservices>customer@localgov.co.uk</customerservices>
+	<subscriptions>m.collins@hgluk.com,m.spillane@hgluk.com,n.hudd@hgluk.com</subscriptions>
+	<editor>editorial@localgov.co.uk</editor>
+	<registrations>localgov.reg@hgluk.com</registrations>
+	<hemming_accesscode_email>g.bond@hgluk.com</hemming_accesscode_email>
+	<sales>sales@localgov.co.uk</sales>
+	<bulletin>bulletin@localgov.co.uk</bulletin>
+	
+	<trialsubid>417</trialsubid>
+	<superuser>localgov@hgluk.com</superuser>
+	
+	<campaigncode>A001LQ06</campaigncode>
+	<renewalcode>A002LQ06</renewalcode>
+	
+	<!--
+	<customerservices>customer.services@localgov.co.uk</customerservices>
+	<subscriptions>subscriptions@localgov.co.uk</subscriptions>
+	-->
+	
+	<disclaimer><![CDATA["********************************************************************<br>
+				Hemming Group Ltd<br>
+				32 Vauxhall Bridge Road<br>
+				London<br>
+				SW1V 2SS<br>
+				<br>
+				This e-mail, and files transmitted with it, are for the sole<br>
+				use of the recipient(s) and should not be forwarded without<br>
+				permission. Personal messages do not necessarily represent the<br>
+				views of Hemming Group Ltd.<br>
+				<p></p>
+				You may not copy this information or use it or disclose it to anyone<br>
+				else. If you have received this message in error, please notify the<br>
+				sender and delete it from your system immediately.  <br>
+				The Hemming Group does not accept liability for errors, viruses<br>
+				or omissions in the content of this message.<br>
+				********************************************************************<br>]]>
+	</disclaimer>
+	
+	<!--value should be 1 for true and 0 for false -->
+	<ispartnered>0</ispartnered>
+	
+	<noisewords>about,after,all,also,an,another,any,are,as,at,be,because,been,before,being,between,both,but,by,came,can,come,could,did,do,each,for,from,get,got,has,had,he,have,her,here,him,himself,his,how,if,in,into,is,it,like,make,many,me,might,more,most,much,must,my,never,now,of,on,only,other,our,out,over,said,same,see,should,since,so,some,still,such,take,than,that,the,their,them,then,there,these,they,this,those,through,to,too,under,up,us,very,was,way,we,well,were,what,where,which,while,who,with,would,you,your,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z
+	</noisewords>
+	
+	<lstAttributeID>26,31,36,40,54,17,53,24,2,25,32,47,38,39,60,48,45,35,49,34,59,41,29,27,46,20,44,43,57,54,53</lstAttributeID>
+	
+	<lstDetailAttributeID>40,46,47,48,49,29,31,60,59,45,37,32,44,41,34,43,35,36,39,54,53,52,146,125,126,127,128,129,130,131,132</lstDetailAttributeID>
+	
+	<lstFunctionID>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,55,56,57,58,59,60,61,62,63,64,65,67,68</lstFunctionID>
+	
+	<stattypes>Finance,Political Composition,Population| Area Staff &amp; Housing,Economic Development,Education, Leisure,Recycling,Transport
+	</stattypes>	
+	
+	<veritycollection>his_LocalGov</veritycollection>
+	
+	<ErrorFrequncy>10</ErrorFrequncy>
+	<ErrorPersist>24</ErrorPersist>
+	
+	<DateMaskShort>dd/mm/yyyy</DateMaskShort>
+	<DateMaskLong>dd mmmm yyyy </DateMaskLong>
+	
+	<GuideDir>M</GuideDir>
+	<GuideEdition>2006</GuideEdition>
+
+	<!-- NewsTicker-realted variables... -->
+	<NewsTicker_Speed>10</NewsTicker_Speed>							<!-- milliseconds -->
+	<NewsTicker_Interval>4000</NewsTicker_Interval>					<!-- milliseconds -->
+	<NewsTicker_NoOfHISArticles>5</NewsTicker_NoOfHISArticles>
+	<NewsTicker_NoOfPaperArticles>2</NewsTicker_NoOfPaperArticles>	<!-- per newspaper -->
+	
+	<!-- present VAT value for tax purposes  -->
+	<vat_uk>17.5</vat_uk>
+	
+	<!-- WorldPay-related variables... -->
+	<WorldPay_CompanyID>77218</WorldPay_CompanyID>
+	<WorldPay_InstallationID>136362</WorldPay_InstallationID>
+	<WorldPay_CurrencyCode>GBP</WorldPay_CurrencyCode>
+	<WorldPay_URL>https://select.worldpay.com/wcc/purchase</WorldPay_URL>
+	<WorldPay_TestMode>0</WorldPay_TestMode>						<!-- 101: Always No; 100: Always Yes; 0: Live --> 
+
+	<Session_Timeout>910</Session_Timeout>							<!-- in seconds --> 
+	
+	<max_savesearches>20</max_savesearches>				<!-- maximum number of searches allowed to be saved--> 
+	
+	<directory_org_sample_id>2</directory_org_sample_id>  <!-- id of orgnisation to be on diretcory homepage-->
+	<directory_person_sample_id>46123</directory_person_sample_id>  <!-- id of orgnisation to be on diretcory homepage--> 
+	
+	<!-- FASTsearch: circuits and fuseactions (methods) where FASTsearch will be enabled... -->
+	<fastsearch_activation_areas>news.index,news.detail,business.detail,business.home</fastsearch_activation_areas>
+	
+	<!--salutations that may be present in article quick links which need to be removed-->
+	<quick_link_salutations>Lord,Lady,Sir,Baron,Baroness,Lt Col</quick_link_salutations>
+	
+	<!--services password-->
+	<pw>$ervice69</pw>	
+ 
+	<!-- Number format mask... -->
+	<mask>_,___,___.__</mask>
+	
+	<!-- namespace for jobs xml-->
+	<job_xmlns>xmlns="http://www.localgov.co.uk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.localgov.co.uk   http://www.localgov.co.uk/extends/xml/jobs.xsd"</job_xmlns>
+	
+	
+	<googleAccountNo>UA-2205437-1,UA-5696368-1</googleAccountNo>
+	
+	<blogs>http://www.localgov.co.uk/blog/horace/rss.cfm,http://www.localgov.co.uk/blog/mikeburton/rss.cfm,http://blogs.24dash.com/paulobrien/feed/,http://www.blogger.com/feeds/30734910/posts/default</blogs>
+	
+	<blogimages>http://www.localgov.co.uk/blog/horace/images/horace.jpg,http://www.localgov.co.uk/blog/mikeburton/images/burtontease.jpg,http://www.24dash.com/images/biogs/tn_paul_obrien.gif,</blogimages>
+	
+	<MybOpenDay>12062008</MybOpenDay>
+	
+	<slideWidth>342</slideWidth>
+	<slideHeight>219</slideHeight>
+	
+	<MybSampleEntryID>5</MybSampleEntryID>
+	
+</config>

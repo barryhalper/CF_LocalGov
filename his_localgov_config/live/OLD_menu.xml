@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+	<item link="index.cfm?method=home.index" name="Home" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=home.index" 				name="Site Home"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=home.my" 					name="My Local Gov"	accesstype="2,3,4,5"/> 
+			<item link="index.cfm?method=home.register"				name="Register"  	accesstype="1"/> 
+			<item link="index.cfm?method=subscribe.home"			name="Subscribe" 	accesstype="1,2"/> 
+			<!-- <item link="index.cfm?method=users.resubscribe"			name="Resubscribe" 	accesstype="3,5"/> --> 
+			<item link="index.cfm?method=home.copy&amp;id=48525"	name="Help"	 		accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=home.copy&amp;id=40942"	name="Contact Us"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=home.copy&amp;id=64063"	name="About Us"    accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=users.logout"				name="Logout" 		accesstype="2,3,4,5"/> 	
+		</menu> 
+	</item>									
+		
+	<item link="index.cfm?method=corporate.home" name="My Corporate Home" accesstype="5"> 
+		<menu> 
+			<item link="index.cfm?method=corporate.home"			name="My Corporate Home" 		accesstype="5"/> 
+			<item link="index.cfm?method=corporate.subinfo"			name="Subscription Info" 		accesstype="5"/> 
+			<item link="index.cfm?method=corporate.registrations"	name="View Registrations"		accesstype="5"/> 
+			<!-- <item link="index.cfm?method=corporate.invite"			name="Send Invitation"		accesstype="5"/> -->
+			<!--<item link="index.cfm?method=corporate.buytopups"		name="Buy Top Ups"	 		accesstype="5"/> 
+			<item link="index.cfm?method=corporate.resubscribe"		name="Resubscribe"	 			accesstype="5"/> -->
+			<item link="index.cfm?method=corporate.talk"			name="Contact Cust. Services"	accesstype="5"/> 
+			<item link="index.cfm?method=users.logout"				name="Logout"	 				accesstype="5"/> 
+		</menu> 
+	</item>
+
+	<item link="index.cfm?method=news.index" name="News &amp; Analysis" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=news.index" 			name="News Home" 			accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=news.search" 			name="Search News"  		accesstype="1,2,3,4,5"/> 
+			<!-- <item link="index.cfm?method=news.supplements" 		name="Council Focus"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=news.pressreleases" 	name="InfoPoint" 			accesstype="1,2,3,4,5"/>  -->
+			<item link="index.cfm?method=papers.home" 			name="Today&apos;s Papers" 	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=news.editorscomments" 	name="Analysis" 			accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=topics.home" 			name="Special Focus" 		accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=blogs.home" 			name="Blogs" 				accesstype="1,2,3,4,5"/>
+			<item link="extends/components/Services/rss.cfc?Method=getnews" name="RSS Feed" accesstype="1,2,3,4,5"/>
+			
+		</menu> 
+	</item>	
+	
+	<item link="index.cfm?method=jobs.index" name="Jobs" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=jobs.index" 							 	name="Jobs Home"		accesstype="1,2,3,4,5"/> 
+			<!--<item link="index.cfm?method=jobs.search&amp;context=jobs&amp;tab=1" 	name="Search Jobs"		accesstype="1,2,3,4,5"/> -->
+			<item link="index.cfm?method=jobs.latest" 							 	name="Latest Jobs"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=jobs.copy&amp;id=48668"					name="Advertise"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=jobs.companies" 						 	name="Consultants"		accesstype="1,2,3,4,5"/>
+			<item link="extends/components/Services/rss.cfc?Method=getjobs" 		name="RSS Feed" 		accesstype="1,2,3,4,5"/>
+		</menu> 
+	</item>										
+		
+	<item link="index.cfm?method=directory.home" name="Directory" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=directory.home" 		 	name="Directory Home"			accesstype="1,2,3,4,5"/>  
+			<item link="index.cfm?method=directory.alpha" 		 	name="A-Z Councils"				accesstype="1,2,3,4,5"/>  
+			<item link="index.cfm?method=directory.searchPerson" 	name="Search People"			accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=directory.searchOrg" 	 	name="Search Organisations" 	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=directory.searchConstit" 	name="Search Constituency" 		accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=pg.form" 					name="Search Suppliers"			accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=directory.stats"        	name="Councils Statistics"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=directory.gazetteer"    	name="Gazetteer"				accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=directory.cabinetoption" 	name="Council Structure"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=directory.reorg" 			name="Council Reorganisation"	accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=buymyb.index" 				name="Buy MYB"					accesstype="1,2,3,4,5"/>	
+			
+			
+			<!--<item link="#" name="Press Releases"									accesstype="1,2,3,4,5"/>--> 
+		</menu> 
+	</item>
+	
+	<item link="index.cfm?method=datasales.index" name="List Rental" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=datasales.index"			name="List Rental Home" 		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=datasales.setlists" 		name="Order Set Lists"			accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=datasales.basket" 			name="View Basket"				accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=datasales.checkout2" 		name="Checkout"					accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=datasales.listExplained" 	name="Set Lists Explained"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=datasales.tandcs" 			name="Terms &amp; Conditions"	accesstype="1,2,3,4,5"/> 
+		</menu> 
+	</item>		
+	
+   	<item link="index.cfm?method=awards.home" name="Awards" accesstype="1,2,3,4,5"> 
+	<menu> 
+		<item link="index.cfm?method=awards.home"				name="MJ 2009 Awards" 		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=68225" 	name="MJ 2008 Awards"		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=56280" 	name="MJ 2007 Awards"		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=56281" 	name="MJ 2006 Awards"		accesstype="1,2,3,4,5"/> 
+		
+		<item link="index.cfm?method=awards.copy&amp;id=69157"	name="LGN Awards Home" 		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=70236" 	name="LGN 2008 Awards"		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=68929" 	name="LGN 2007 Awards"		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=68935" 	name="LGN 2006 Awards"		accesstype="1,2,3,4,5"/> 
+		<item link="index.cfm?method=awards.copy&amp;id=68941" 	name="LGN 2005 Awards"		accesstype="1,2,3,4,5"/> 
+		
+		</menu> 
+	</item>														
+		
+	<item link="index.cfm?method=subscribe.home" name="Subscribe" accesstype="1,2,3"> 
+		<menu> 
+			<item link="index.cfm?method=subscribe.home" 			name="Subscribe Home"		accesstype="1,2,3,4,5"/> 
+			<!-- <item link="index.cfm?method=users.subscribe" 		name="Site Demo"			accesstype="1,2,3,4,5"/> --> 
+			<item link="index.cfm?method=home.copy&amp;id=47398" 	name="Further Information"	accesstype="1,2,3,4,5"/> 	
+			<item link="index.cfm?method=home.copy&amp;id=48170" 	name="Refund Policy"		accesstype="1,2,3,4,5"/> 	
+		</menu> 
+	</item>									
+		
+	<item link="index.cfm?method=events.calendar_large" name="Events" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=events.list" 						name="Latest Events"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=events.search&amp;context=Events" 	name="Search Events"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=events.calendar_week_view"			name="Event Calendar"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=events.add" 						name="Add your Event"	accesstype="1,2,3,4,5"/> 
+				<item link="extends/components/Services/rss.cfc?Method=getEvents" 	name="RSS Feed" accesstype="1,2,3,4,5"/>
+		</menu> 
+	</item>									
+	
+	<item link="index.cfm?method=pg.form" name="Procurement Guide" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=pg.form" 					name="Search"			accesstype="1,2,3,4,5"/> 			
+			<item link="index.cfm?method=maintenance.adform" 		name="Advertise"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=maintenance.entryform1" 	name="Get Listed"		accesstype="1,2,3,4,5"/> 
+		</menu> 
+	</item>	
+		
+	<item link="index.cfm?method=business.home" name="Business" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=business.home" 						name="Business Home"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=business.search&amp;context=Business" name="Search Business"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=business.papers" 						name="Today&apos;s Papers"	accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=business.supplements" 					name="Company Focus"		accesstype="1,2,3,4,5"/>
+		</menu> 
+	</item>									
+			
+
+	<item link="index.cfm?method=careers.sections" name="Careers" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<!-- <item link="index.cfm?method=careers.home"	name="Home"			accesstype="1,2,3,4,5"/> --> 			
+			<item link="index.cfm?method=careers.sections" 	name="Careers Home"	accesstype="1,2,3,4,5"/>  			
+			<item link="index.cfm?method=careers.Training" 	name="Training"		accesstype="1,2,3,4,5"/> 			
+		</menu> 
+	</item>									
+		
+	<item link="index.cfm?method=govepedia.home" name="Govepedia" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=govepedia.home"	 			name="Govepedia Home" 		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=govepedia.search"	 			name="Search"		 		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=govepedia.browse"	 			name="Browse" 				accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=govepedia.edit"	 			name="Add an Entry" 		accesstype="1,2,3,4,5"/>
+			<item link="index.cfm?method=govepedia.copy&amp;id=48183"	name="How to Contribute" 	accesstype="1,2,3,4,5"/>		
+			<item link="index.cfm?method=govepedia.copy&amp;id=48676"	name="Disclaimer" 			accesstype="1,2,3,4,5"/>			
+		</menu> 
+	</item>									
+															
+				
+	<item link="index.cfm?method=need.home" name="Need 2 Know" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=need.home" 			name="Need 2 Know Home"		accesstype="1,2,3,4,5"/> 			
+			<item link="index.cfm?method=need.Search" 			name="Search"				accesstype="1,2,3,4,5"/> 			
+			<item link="index.cfm?method=need.browse" 			name="Browse"				accesstype="1,2,3,4,5"/> 
+		</menu> 
+	</item>	
+	
+
+	<!--<item link="index.cfm?method=pg.form" name="Procurement Guide" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=pg.form" 					name="Search"			accesstype="1,2,3,4,5"/> 			
+			<item link="index.cfm?method=maintenance.adform" 		name="Advertise"		accesstype="1,2,3,4,5"/> 
+			<item link="index.cfm?method=maintenance.entryform1" 	name="Get Listed"		accesstype="1,2,3,4,5"/> 
+		</menu> 
+	</item>	
+	
+	<item link="index.cfm?method=research.home" name="Research" accesstype="1,2,3,4,5"> 
+		<menu> 
+			<item link="index.cfm?method=research.home" 			name="About"				accesstype="1,2,3,4,5"/> 			
+			<item link="index.cfm?method=research.browse" 			name="Browse"				accesstype="1,2,3,4,5"/> 
+		</menu> 
+	</item>	-->			
+</menu>

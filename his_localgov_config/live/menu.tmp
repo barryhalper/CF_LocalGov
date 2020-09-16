@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+	<item link="" name="Home"> 
+		<menu> 
+			<item link="index.cfm?" name="Home"/> 
+			<item link="index.cfm?" name="My Home"/> 
+		</menu> 
+	</item>									
+	<item link="" name="News"> 
+		<menu>
+			<item link="index.cfm?method=news.index" name="News Home"/>
+			<item link="" name="Search Archive"/> 
+			<item link="" name="Features"/> 
+			<item link="" name="News Stories"/> 
+			<item link="" name="Supplements"/> 
+			<item link="" name="Next Week's Edition"/> 
+			<item link="" name="Press Releases"/> 
+			<item link="" name="Register for News Alert"/> 
+			<item link="" name="Editots Comment"/> 
+			<item link="" name="E-Poll"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Search"> 
+		<menu> 
+			<item link="index.cfm?method=search.quicksearch" name="Quick Search"/> 
+			<item link="index.cfm?method=search.advancedsearch" name="Advanced"/> 
+			<item link="index.cfm?method=search.sectorsearch" name="Sector Search"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Subscriptions"> 
+		<menu> 
+			<item link="" name="Site Demo"/> 
+			<item link="" name="Packages"/> 
+			<item link="" name="Subscribe Online"/> 
+			<item link="" name="Further Information"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Events"> 
+		<menu> 
+			<item link="" name="Latest Events"/> 
+			<item link="" name="Register for alert"/> 
+			<item link="" name="Download events"/> 
+			<item link="" name="Add your Event"/> 
+			<item link="" name="Sponser An Event"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Business"> 
+		<menu> 
+			<item link="" name="Relates Stories"/> 
+			<item link="" name="Product Guide"/> 
+			<item link="" name="Best Practice Guide"/> 
+			<item link="" name="Working With Local Authorties"/> 
+			<item link="" name="Tenders"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Careers"> 
+		<menu> 
+			<item link="" name="Sub menu 1"/> 
+			<item link="" name="Sub menu 2"/> 
+			<item link="" name="Sub menu 3"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Jobs"> 
+		<menu> 
+			<item link="" name="Search Jobs"/> 
+			<item link="" name="latest Jobs"/> 
+			<item link="" name="Jobs Via Email"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Forums"> 
+		<menu> 
+			<item link="" name="Search"/> 
+			<item link="" name="Browse"/> 
+			<item link="" name="Create a Topic"/> 
+			<item link="" name="My Forum"/> 
+			<item link="" name="Disclaimer"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Local Councils"> 
+		<menu> 
+			<item link="" name="Sub menu 1"/> 
+			<item link="" name="Sub menu 2"/> 
+			<item link="" name="Sub menu 3"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Data Sales"> 
+		<menu> 
+			<item link="" name="Sub menu 1"/> 
+			<item link="" name="Sub menu 2"/> 
+			<item link="" name="Sub menu 3"/> 
+		</menu> 
+	</item>									
+		
+	<item link="" name="Council Profiles"> 
+		<menu> 
+			<item link="" name="Sub menu 1"/> 
+			<item link="" name="Sub menu 2"/> 
+			<item link="" name="Sub menu 3"/> 
+		</menu> 
+	</item>									
+		
+</menu>
+

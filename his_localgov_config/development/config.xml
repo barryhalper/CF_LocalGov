@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<title>LocalGov.co.uk - [Development]</title>
+	<environment>development</environment>
+	
+	<appname>his_LocalGov</appname>
+	<mediacode>LGov</mediacode>
+	<magmediacode>MJ</magmediacode>
+	<submediacode></submediacode>
+	<accountsproductcode>LGWA</accountsproductcode>
+
+	<!-- Datasources... -->
+	<dsn1>his_websites</dsn1>	
+	<dsn2>his_MYB</dsn2>	
+	<dsn3>his_Guides</dsn3>
+	<dsn4>WebServerLogs</dsn4>
+	<dsn5>LocalGov</dsn5>
+	<dsn6>LocalGov2005</dsn6>
+	<dsn7>Awards</dsn7>
+	<dsn8>BlueBook</dsn8>
+	<cachetime>CreateTimeSpan(0,0,0,0)</cachetime>
+
+	<mailserver>192.168.1.6:25</mailserver>
+
+	<useProxy>1</useProxy>
+
+	<productid>66</productid>
+	<newsproductids>6,7,8,9,48,66,70</newsproductids>
+	<hisproductids>6,7,8,9,12,48,65,70</hisproductids>
+	
+	<searchsectors>news,business news,jobs,people,organisations,events,govepedia,need 2 know,suppliers,Procurement Guide Products,Blogs</searchsectors>
+	
+	<!-- Email addresses... -->
+	<mailsender>localgov@hgluk.com</mailsender>
+	<errormailto>o.hilton@hgluk.com</errormailto>
+	<customerservices>b.halper@hgluk.com</customerservices>
+	<subscriptions>o.hilton@hgluk.com</subscriptions>
+	<hemming_accesscode_email>webmaster@hgluk.com</hemming_accesscode_email>
+
+	<accounts>accountsonline@hgluk.com</accounts>
+	<!-- <accounts>customer@hgluk.com</accounts> -->
+	<editor>j.barker@hgluk.com</editor>
+	<registrations>localgov.reg@hgluk.com</registrations>
+	<sales>sales@localgov.co.uk</sales>
+	<bulletin>bulletin@localgov.co.uk</bulletin>
+	
+	
+	<trialsubid>252</trialsubid>
+	<superuser>localgov@hgluk.com</superuser>
+	
+	<!-- <campaigncode>A001LQ06</campaigncode>
+	<renewalcode>A002LQ06</renewalcode> -->
+	
+	
+	<!--
+	<customerservices>customer.services@localgov.co.uk</customerservices>
+	<subscriptions>subscriptions@localgov.co.uk</subscriptions>
+	-->
+	
+	<disclaimer><![CDATA[********************************************************************<br>
+				Hemming Group Ltd<br>
+				32 Vauxhall Bridge Road<br>
+				London<br>
+				SW1V 2SS<br>
+				<br>
+				This e-mail, and files transmitted with it, are for the sole<br>
+				use of the recipient(s) and should not be forwarded without<br>
+				permission. Personal messages do not necessarily represent the<br>
+				views of Hemming Group Ltd.<br>
+				<p></p>
+				You may not copy this information or use it or disclose it to anyone<br>
+				else. If you have received this message in error, please notify the<br>
+				sender and delete it from your system immediately.  <br>
+				The Hemming Group does not accept liability for errors, viruses<br>
+				or omissions in the content of this message.<br>
+				********************************************************************<br>]]>
+	</disclaimer>
+	
+	<!--value should be 1 for true and 0 for false -->
+	<ispartnered>0</ispartnered>
+	
+	<noisewords>about,and,after,all,also,an,another,any,are,as,at,be,because,been,before,being,between,both,but,by,came,can,come,could,did,do,each,for,from,get,got,has,had,he,have,her,here,him,himself,his,how,if,in,into,is,it,like,make,many,me,might,more,most,much,must,my,never,now,of,on,only,other,our,out,over,said,same,see,should,since,so,some,still,such,take,than,that,the,their,them,then,there,these,they,this,those,through,to,too,under,up,us,very,was,way,we,well,were,what,where,which,while,who,with,would,you,your,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,and
+	</noisewords>
+	
+	<lstAttributeID>26,31,36,40,54,17,53,24,2,25,32,47,38,39,60,48,45,35,49,34,59,41,29,27,46,20,44,43,57,54,53</lstAttributeID>
+	
+	<lstDetailAttributeID>40,46,47,48,49,29,31,60,59,45,37,32,44,41,34,43,35,36,39,54,53,52,146,125,126,127,128,129,130,131,132</lstDetailAttributeID>
+	
+	<lstFunctionID>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,55,56,57,58,59,60,61,62,63,64,65,67,68</lstFunctionID>
+	
+	<stattypes>Finance,Political Composition,Population| Area Staff &amp; Housing,Economic Development,Education, Leisure,Recycling,Transport
+	</stattypes>	
+	
+	<veritycollection>his_LocalGov</veritycollection>
+	
+	<ErrorFrequncy>10</ErrorFrequncy>
+	<ErrorPersist>24</ErrorPersist>
+	
+	<DateMaskShort>dd/mm/yyyy</DateMaskShort>
+	<DateMaskLong>dd mmmm yyyy </DateMaskLong>
+	
+	<GuideDir>M</GuideDir>
+	<GuideEdition>2007</GuideEdition>
+
+	<!-- NewsTicker-realted variables... -->
+	<NewsTicker_Speed>10</NewsTicker_Speed>							<!-- milliseconds -->
+	<NewsTicker_Interval>4000</NewsTicker_Interval>					<!-- milliseconds -->
+	<NewsTicker_NoOfHISArticles>5</NewsTicker_NoOfHISArticles>
+	<NewsTicker_NoOfPaperArticles>2</NewsTicker_NoOfPaperArticles>	<!-- per newspaper -->
+	
+	<!-- present VAT value for tax purposes  -->
+	<vat_uk>17.5</vat_uk>
+	
+	<!-- Encryption Key used for encrypting passwords -->
+	<encrypt_key>ExbOJV1t5Q4=</encrypt_key>
+	
+	<!-- WorldPay-related variables... -->
+	<WorldPay_CompanyID>77218</WorldPay_CompanyID>
+	<WorldPay_InstallationID>136362</WorldPay_InstallationID>
+	<WorldPay_CurrencyCode>GBP</WorldPay_CurrencyCode>
+	<WorldPay_URL>http://hiscontent.hgluk.hemming-group.com/worldpay.cfm</WorldPay_URL>
+	<WorldPay_TestMode>100</WorldPay_TestMode>						<!-- 101: Always No; 100: Always Yes; 0: Live --> 
+
+	<Session_Timeout>900</Session_Timeout>							<!-- in seconds --> 
+	
+	<max_savesearches>20</max_savesearches>				<!-- maximum number of searches allowed to be saved--> 
+	
+	<directory_org_sample_id>2</directory_org_sample_id>  <!-- id of orgnisation to be on diretcory homepage-->
+	<directory_person_sample_id>40361</directory_person_sample_id>  <!-- id of orgnisation to be on diretcory homepage--> 
+ 
+	<!-- FASTsearch: circuits and fuseactions (methods) where FASTsearch will be enabled... -->
+	<fastsearch_activation_areas>news.index,news.detail,business.detail,business.home,topics.copy,topics.home</fastsearch_activation_areas>
+	
+	<!--salutations that may be present in article quick links which need to be removed-->
+	<quick_link_salutations>Lord,Lady,Sir,Baron,Baroness,Lt Col</quick_link_salutations>
+	
+	<!--services password-->
+	<pw></pw>
+
+	<!-- Number format mask... -->
+	<mask>_,___,___.__</mask>
+	
+	<!-- namespace for jobs xml-->
+	<job_xmlns>xmlns="http://www.localgov.co.uk" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.localgov.co.uk   http://www.localgov.co.uk/extends/xml/jobs.xsd"</job_xmlns>
+	
+	<uye_skeletonKey>d0££et</uye_skeletonKey>
+	
+	
+	<costperrecord>.35</costperrecord>
+	<lrdcostperrecord>0.20</lrdcostperrecord>
+	<ds_percentdiscount>20</ds_percentdiscount>
+	<ds_coms>Mailing,Telephone,Fax</ds_coms>
+	<ds_formats>Email - excel format,Email - csv format,Email - Labels</ds_formats>
+	<ds_addressColumns>address1,address2,address3,town,county,pcl,pcr</ds_addressColumns>
+	
+		<ds_TandC><![CDATA[<p>This agreement is between Hemming Group Limited (trading as Hemming Information
+  Services) (&ldquo;the List Owner&rdquo;) and individual placing the order (&ldquo;the
+  Customer&rdquo;) whose name and address appears as per the completed order
+  form.</p>
+<p>The Customer by signing this agreement agrees, subject to the acceptance by
+  the List Owner, to rent the &nbsp;list of information (&ldquo;the List&rdquo;)
+  from the List Owner for a number of uses as stipulated on their order form. &nbsp;</p>
+<p><br>
+  Copyright<br>
+  ---------<br>
+  The Customer acknowledges that the List is the copyright of the List Owner
+  and that it will acquire no rights to copy, duplicate or retain the List, or
+  any part thereof.&nbsp; The Customer acknowledges that the List is of significant
+  commercial value to the List Owner and will take all necessary action to ensure
+  that no other person is given access to the List.&nbsp; The Customer take full
+  responsibility for any unauthorised use or disclosure of the List.</p>
+<p><br>
+  Usage<br>
+  -----<br>
+  The Customer warrants that the information regarding the nature of it&rsquo;s
+  business and the purpose for which the List is to be used, is accurate, complete
+  and in no way misleading.&nbsp; The Customer acknowledges that the List Owner
+  is relying on this warranty in agreeing to provide the List to the Customer.</p>
+<p>The List Owner will provide the List to the Customer for usage as stipulated
+  on the order form, strictly within the business.&nbsp; The Customer undertakes
+  not to use the List, otherwise than in accordance with this agreement.</p>
+<p>At the List Owner&rsquo;s request, the Customer will provide the List Owner
+  with two samples of the material that the customer proposes to mail to the
+  names on the List.&nbsp; The Customer undertakes to ensure that any material
+  dispatched to the names on the List conforms to the sample supplied to the
+  List Owner and shall contain no reference to the List Owner.</p>
+<p>The List Owner may, at any time, as it sees fit and without giving any reason,
+  refuse or withdraw permission for the Customer to use the List.</p>
+<p>Where the Customer requests that the List is sent to a mailing house, the
+  Customer will take all necessary action to ensure that the mailing house is
+  aware of, and complies fully with, the terms and conditions contained in this
+  agreement.</p>
+<p>The Customer will indemnify the List Owner in full, for and against all claims,
+  costs, expenses and liabilities arising from any breach of this agreement by
+  the Customer (or by a mailing house acting on the Customer&rsquo;s behalf)
+  or by reason of anything contained in the material mailed to the names on the
+  List.&nbsp; The List Owner&rsquo;s approval of the material to be mailed or
+  the use of the List shall not restrict the List Owner&rsquo;s rights under
+  this indemnity.</p>
+<p><br>
+  Delivery<br>
+  --------</p>
+<p>The List Owner will despatch the List to the Customer by e-mail or post, in
+  digital format, or on floppy disk, or as labels, as requested by the Customer.&nbsp;  The
+  Customer undertakes to use the List within 28 days of the date of delivery.</p>
+<p>Within 35 days from the date of delivery of the List, or 7 days of usage of
+  the List, if earlier, the Customer undertakes to destroy all copies of the
+  List and delete the List in its entirety from any computer or any other electronic
+  storage device.&nbsp; If the List was supplied to the Customer on floppy disks,
+  such floppy disks shall be returned to the List Owner.&nbsp; The Customer will,
+  on the request of the List Owner, certify in writing that it has complied with
+  these obligations.</p>
+<p><br>
+  Payment<br>
+  -------</p>
+<p>The rental charge shall be calculated in accordance with this agreement.</p>
+<p>Subject to the List Owner agreeing to open a credit account for the Customer,
+  the List Owner will invoice the Customer prior to the despatch of the List.&nbsp; The
+  Customer agrees to settle the invoice in full within 30 days of the date of
+  the invoice. The List Owner reserves the right to require full payment in advance
+  of despatch of the List.&nbsp; The Customer shall not be entitled to withhold
+  payment of any amount due to the List Owner by reason of any set-off or counterclaim.&nbsp; The
+  List Owner shall be entitled to charge interest on any overdue sum at the rate
+  for the time being of 2% above the base lending rate of HSBC Bank Plc from
+  the due date until the date of actual payment.</p>
+<p><br>
+  List Contents<br>
+  -------------</p>
+<p>The approximate number of records contained in the List and quoted to the
+  Customer is the number of records at the time of quotation.&nbsp; The actual
+  number of records on the List despatched to the Customer may differ due to
+  additions and deletions between the time of quotation and the time of despatch.&nbsp; The
+  Customer accepts that a small number of dummy records shall be inserted into
+  the List before despatch, for the purpose of monitoring usage of the List.&nbsp; The
+  information contained in the List has been complied from data collected by
+  the List Owner, in good faith, from the organisations on the List and was believed
+  to be correct at the time of collection. The List Owner gives no warranty as
+  to the accuracy or completeness of the List or whether it is fit to be used
+  for the purpose stated above.&nbsp; The List Owner shall not be liable for
+  any claims, loss, costs or expenses that may arise as a result of making the
+  List available to the Customer.</p>
+<p><br>
+  Entire Agreement<br>
+  ----------------</p>
+<p>These are the entire terms and conditions on which the List Owner will make
+  available the List to the Customer.</p>
+<p>Failure or delay by the List Owner in exercising any right under the terms
+  of this agreement shall not operate as a waiver of the List Owner&rsquo;s rights
+  under this agreement.</p>]]></ds_TandC>
+
+
+	<mybHarcopyPrice>280</mybHarcopyPrice>
+	
+	
+	<book_returns_policy>An administration charge of £50 + VAT will be payable on any book returned. This charge may be waived if you have made a genuine error in ordering and you notify us in writing (by letter, fax or e-mail) of the error and return the product to us in saleable condition within 7 days of the invoice date. In all other cases you will be charged the full price. For online subscriptions the cancellation period is 3 days. Further information regarding returns and refunds can be obtained by calling 020 7973 6694.</book_returns_policy>
+	
+	<googleAccountNo>UA-2205437-1,UA-5696368-1</googleAccountNo>
+	<googlemapkey>ABQIAAAAR0QdvCT8mgbGxvjIYLVH4xRi_j0U6kJrkFvY4-OX2XYmEAa76BRyT0VTDs7B6Ud1LCStS6Q5H73zBw</googlemapkey>
+	<electiondate>05/03/2012</electiondate>
+	
+	<blogs>http://www.localgov.co.uk/blog/horace/rss.cfm,http://www.localgov.co.uk/blog/mikeburton/rss.cfm,http://blogs.24dash.com/paulobrien/feed/,http://www.blogger.com/feeds/30734910/posts/default</blogs>
+	
+	<blogimages>http://www.localgov.co.uk/blog/horace/images/horace.jpg,http://www.localgov.co.uk/blog/mikeburton/images/burtontease.jpg,http://www.24dash.com/images/biogs/tn_paul_obrien.gif,</blogimages>
+	
+	<MybOpenDay>12062008</MybOpenDay>
+	
+	
+	<slideWidth>342</slideWidth>
+	<slideHeight>219</slideHeight>
+	
+	<MybSampleEntryID>2</MybSampleEntryID>
+	
+</config>

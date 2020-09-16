@@ -1,0 +1,21 @@
+
+*.svn-base
+*.scc
+his_localgov_extensions/components/.svn/all-wcprops
+his_localgov_config/development/.svn/all-wcprops
+his_localgov_config/development/.svn/dir-prop-base
+his_localgov_config/development/_notes/dwsync.xml
+his_localgov_config/development/.svn/entries
+his_localgov_config/development/menu.tmp
+his_localgov_config/live/_notes/dwsync.xml
+his_localgov_config/live/menu - Copy.xml
+his_localgov_config/staging/.svn/dir-prop-base
+his_localgov_config/staging/.svn/all-wcprops
+his_localgov_config/staging/.svn/entries
+his_localgov_config/test/menu.tmp
+his_localgov_extensions/components/_notes/dwsync.xml
+his_localgov_extensions/components/ApplicationObjects/_notes/dwsync.xml
+his_localgov_extensions/components/BusinessObjects/_notes/dwsync.xml
+his_localgov_extensions/components/BusinessObjects/Article/_notes/dwsync.xml
+his_localgov_extensions/components/DataAccessObjects/_notes/dwsync.xml
+his_localgov_extensions/customtags/_notes/dwsync.xml

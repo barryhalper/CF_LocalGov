@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<website>
+	
+	<default author="Barry halper for and on behalf of the Hemming group LTD" description="Data resource for local government" keywords="local,gov,council,events,government,parish,jobs,tec,surveyor,hemming,mj,myb,management,journal,business,news" title="LocalGov.co.uk - Your authority on UK Local Government"/>
+	
+	<directory author="Barry halper for and on behalf of the Hemming group LTD" circuit="home" description="Your Authority on UK Local Government" keywords="some keywords for the home page" link="home.index" title="">	
+		<page description="" fuseaction="home.index" keywords="" title="Site Home"/>
+		<page description="Information on all areas of UK local government, UK local authorities and UK local councils" fuseaction="home.my" keywords="" title="My Local Gov"/>
+		<page description="Information on all areas of UK local government, UK local authorities and UK local councils" fuseaction="home.register" keywords="" title="Register"/>
+		<page description="Information on all areas of UK local government, UK local authorities and UK local councils" fuseaction="users.subscribe" keywords="" title="Subscribe"/>
+		<page description="Information on all areas of UK local government, UK local authorities and UK local councils" fuseaction="users.logout" keywords="" title="Logout"/>
+	</directory> 
+	
+	
+	<directory author="Barry halper for and on behalf of the Hemming group LTD" circuit="news" description="" keywords="" link="news.index" title="Local Government News &amp; Analysis">	
+		<page description="The latest news in UK Local Government and UK local authority, including local council news and statistics." fuseaction="news.index" keywords="" title="News Home"/>
+		<page description="UK local councils profiles on LocalGov.co.uk including information on procurement efficiency in UK local government and best practice." fuseaction="news.supplements" keywords="" title="Council Focus"/>
+		<page description="News from UK local government information providers on LocalGov.co.uk" fuseaction="news.pressreleases" keywords="" title="InfoPoint"/>
+		
+<page description="News from the national press on LocalGov.co.uk" fuseaction="news.papers" keywords="" title="Today's Papers"/>
+
+		<page description="Detailed analysis of UK local authorities including council reorganisation, procurement, efficiency, best practice, interim management, communities and sustainability." fuseaction="news.editorscomments" keywords="" title="Comment &amp; Analysis"/>
+		
+		<page description="Detailed analysis of UK local authorities including council reorganisation, procurement, efficiency, best practice, interim management, communities and sustainability." fuseaction="news.search" keywords="" title="Search UK Local Authority News"/>
+	</directory> 
+	
+	
+	<directory circuit="corporate" description="" keywords="" link="corporate.home" title="My Corporate Home">	
+		<page description="" fuseaction="corporate.subinfo" keywords="" title="Subscription Info"/>
+		<page description="" fuseaction="corporate.registrations" keywords="" title="View Registrations"/>
+		<page description="" fuseaction="corporate.buytopups" keywords="" title="Buy Top Ups"/>
+		<page description="" fuseaction="corporate.resubscribe" keywords="" title="Resubscribe"/>
+		<page description="" fuseaction="corporate.talk" keywords="" title="Contact Cust. Services"/>
+		<page description="" fuseaction="users.logout" keywords="" title="Logout"/>
+	</directory> 
+	
+	
+	<directory circuit="directory" description="" keywords="" link="directory.home" title="Directory">	
+		<page description="Detailed council contact information on LocalGov.co.uk including councillors, senior officers, councils addresses, phone numbers and e-mail contacts, council reorganisation and structure, councils statistics, election results and population information." fuseaction="directory.home" keywords="" title="Directory Home"/>
+		<page description="A list of local authorities in the UK on LocalGov.co.uk that you can filter by local councils type including county, unitary, metropolitan borough and district." fuseaction="directory.alpha" keywords="" title="A-Z Councils"/>
+		
+		<page description="Search LocalGov.co.uk for councillors, mayors, cabinet members, chief executives, assistant chief executives, deputy chief executives, council heads of service, council managers on LocalGov.co.uk" fuseaction="directory.searchPerson" keywords="" title="Search People"/>
+		<page description="Search LocalGov.co.uk for chief executives, assistant chief executives, deputy chief executives, council heads of service, council managers on LocalGov.co.uk" fuseaction="directory.SearchOfficers" keywords="" title="Officer Results"/>
+		<page description="Search LocalGov.co.uk for councillors, cabinet members, elected mayors on LocalGov.co.uk" fuseaction="directory.SearchCouncillors" keywords="" title="Councillor Results"/>
+		<page description="" fuseaction="directory.SearchOrgPerson" keywords="" title="Person Results"/>
+		<page description="Search LocalGov.co.uk for details on UK local councils, including county, unitary, metropolitan boroughs, district, borough councils, UK government departments, local government association, UK local government associations, local government professional groups, charities and voluntary groups." fuseaction="directory.searchOrg" keywords="" title="Search Organisations"/>
+		<page description="Search LocalGov.co.uk for details on UK local councils, including county, unitary, metropolitan boroughs, district, borough councils." fuseaction="directory.SearchCouncils" keywords="" title="Council Results"/>
+		<page description="Search LocalGov.co.uk for local government association, UK local government associations, local government professional groups, charities and voluntary groups." fuseaction="directory.SearchAssoc" keywords="" title="Association Results"/>
+		<page description="Search LocalGov.co.uk for details on UK government departments." fuseaction="directory.SearchCentral" keywords="" title="Central Government Results"/>
+		<page description="Search LocalGov.co.uk for details on UK government departments, local government association, UK local government associations, local government professional groups, charities and voluntary groups." fuseaction="directory.OrganisationSearch" keywords="" title="Organisation Results"/>
+		<page description="Search LocalGov.co.uk  for UK Parliamentary constituencies and the members of parliament (MPs), search EU constituencies including MEPs, and search by political party." fuseaction="directory.searchConstit" keywords="" title="Search Constituency"/>
+		<page description="" fuseaction="directory.constitSearch" keywords="" title="Constituency Results"/>
+		<page description="Search LocalGov.co.uk for a range of UK local authority service providers and partners, including suppliers, UK contractors and consultants." fuseaction="directory.procguide" keywords="" title="Search Suppliers"/>
+		<page description="" fuseaction="procguide.results" keywords="" title="Supplier Results"/>
+		<page description="UK local government statistics, including local council finance statistics, political composition, population, staff and housing information, economic development, education, recycling, leisure and transport." fuseaction="directory.stats" keywords="" title="Councils Statistics"/>
+		<page description="A list of UK towns and the local authority boundaries that they fall in." fuseaction="directory.gazetteer" keywords="" title="Gazetteer"/>
+		<page description="Search LocalGov.co.uk for UK local councils with a directly elected mayor and cabinet, a directly elected mayor and council manager, and a council leader and cabinet." fuseaction="directory.cabinetoption" keywords="" title="Council Structure"/>
+		<page description="A history of council reorganisation on LocalGov.co.uk showing where two tier councils have been replaced by unitary councils." fuseaction="directory.reorg" keywords="" title="Council Reorganisation"/>
+	</directory> 
+	
+	<directory circuit="users" description="Subscribing to LocalGov.co.uk" keywords="" link="users.subscribe" title="Subscription Management">	
+			<page description="Subscribing to LocalGov.co.uk" fuseaction="users.subscribe" keywords="" title="Subscribe Home"/>
+			<page description="" fuseaction="users.subscribe" keywords="" title="Site Demo"/>
+			<page description="More information on subscribing to LocalGov.co.uk" fuseaction="home.copy&amp;id=47398" keywords="" title="Further Information"/>
+			<page description="Refund policy for your subscription to LocalGov.co.uk" fuseaction="home.copy&amp;id=48170" keywords="" title="Refund Policy"/>
+	</directory> 
+	
+	<directory circuit="events" description="" keywords="" link="events.calendar_large" title="Local Government Events">	
+		<page description="Conferences, exhibitions, seminars and workshops for UK local government and UK local councils on LocalGov.co.uk" fuseaction="events.list" keywords="" title="Latest Events"/>
+		<page description="Search LocalGov.co.uk for conferences, exhibitions, seminars and workshops for UK local government and UK local councils." fuseaction="events.search&amp;context=Events" keywords="" title="Search Events"/>
+		<page description="A calendar of conferences, exhibitions, seminars and workshops for UK local government and UK local councils on LocalGov.co.uk" fuseaction="events.calendar_week_view" keywords="" title="Event Calendar"/>
+		<page description="Add your conferences, exhibitions, seminars and workshops for UK local government and UK local councils free of charge on LocalGov.co.uk" fuseaction="events.add" keywords="" title="Add your Event"/>
+		
+	</directory> 
+	
+	<directory circuit="business" link="business.home" title="Local Government Business">	
+		<page description="The latest news from suppliers and services providers working with UK local authorities including contract wins with local councils, PFI, and procurement best practice LocalGov.co.uk" fuseaction="business.home" keywords="" title="Business Home"/>
+		<page description="Search LocalGov.co.uk for suppliers and services providers working with UK local authorities including contract wins with local councils, PFI, and procurement best practice." fuseaction="business.search&amp;context=Business" keywords="" title="Search Business"/>
+		<page description="Business news from the national press on LocalGov.co.uk" fuseaction="business.papers" keywords="" title="Today's Papers"/>
+		<page description="Information and contacts for UK local authority service providers and suppliers including case studies and best practice." fuseaction="business.supplements" keywords="" title="Company Focus"/>
+		<page description="Search UK local authority service providers and suppliers." fuseaction="procguide.form" keywords="" title="Search Suppliers"/>
+	</directory> 
+	
+	<directory circuit="jobs" description="Jobs in UK local government, UK local authorities and UK local councils" keywords="" link="jobs.index" title="Local Government Jobs">	
+		<page description="Jobs in UK local government, UK local authorities and UK local councils" fuseaction="jobs.index" keywords="" title="Jobs Home"/>
+		<page description="Latest jobs in UK local government, UK local authorities and UK local councils" fuseaction="jobs.latest" keywords="" title="Latest Jobs"/>
+		<page description="Advertise in the jobs section on LocalGov.co.uk" fuseaction="jobs.copy&amp;id=40935" keywords="" title="Advertise"/>
+		<page description="Recruitment consultants in UK local government" fuseaction="jobs.companies" keywords="" title="Consultants"/>
+	</directory> 
+	
+	<directory circuit="careers" description="" keywords="" link="careers.sections" title="Local Government Careers">	
+		<page description="LocalGov.co.uk careers information and best practice, including articles on recruitment and retention in UK local government, information for councillors, mayors, council managers, preparing for council job interviews and CV advice, consultation and communication, and interim management." fuseaction="careers.sections" keywords="" title="Sections"/>
+		<page description="A list of training providers for UK local government on LocalGov.co.uk" fuseaction="careers.detail&amp;id=42823" keywords="" title="Training"/>
+	</directory> 
+	
+	<directory circuit="govepedia" description="An encyclopaedia for terms related to local government on LocalGov.co.uk" keywords="" link="govepedia.home" title="Govepedia">	
+		<page description="Search in the local government encyclopaedia on LocalGov.co.uk, providing definitions and biographies" fuseaction="govepedia.search" keywords="" title="Search"/>
+		<page description="Browse in the local government encyclopaedia on LocalGov.co.uk, providing definitions and biographies" fuseaction="govepedia.browse" keywords="" title="Browse"/>
+		<page description="Add an entry to the local government encyclopaedia on LocalGov.co.uk, providing definitions and biographies" fuseaction="govepedia.edit" keywords="" title="Add an Entry"/>
+		<page description="How to contribute to the local government encyclopaedia on LocalGov.co.uk, providing definitions and biographies" fuseaction="govepedia.copy&amp;id=48183" keywords="" title="How to Contribute"/>
+	</directory>
+	
+	<directory circuit="need" description="Your local government reference tool providing facts, figures and information on UK local government, UK local authorities and UK local councils" keywords="" link="need.home" title="Need 2 Know">	
+		<page description="Search your local government reference tool providing facts, figures and information on UK local government, UK local authorities and UK local councils" fuseaction="need.Search" keywords="" title="Search"/>
+		<page description="Browse your local government reference tool providing facts, figures and information on UK local government, UK local authorities and UK local councils" fuseaction="need.browse" keywords="" title="Browse"/>
+	</directory> 
+	
+	<directory circuit="datasales" description="Directory list rental is designed to fulfil your direct marketing needs by providing up-to-date tailored information for mailings, telesales and fax broadcasts.  Organised into 88 set lists, it is easy to identify the contacts relevant for your business needs." keywords="MYB, list rental, list sales, data, data sales, officers functions, council data" link="datasales.index" title="Directory List Rental">	
+		<page description="" fuseaction="datasales.index" keywords="" title="Home"/>
+		<page description="" fuseaction="datasales.setlists" keywords="" title="Set Lists"/>
+		<page description="" fuseaction="datasales.bespokelists" keywords="" title="Bespoke Lists"/>
+		<page description="" fuseaction="datasales.basket" keywords="" title="View Basket"/>
+		<page description="" fuseaction="datasales.checkout" keywords="" title="Checkout"/>
+		<page description="" fuseaction="datasales.tandcs" keywords="" title="Terms &amp; Conditions"/>
+	</directory>
+	
+		<directory circuit="blogs" description="Here you?ll find a range contributors seeking to widen the debate on local government issues, while others will be taking a sideways look at things and hopefully make you laugh" title="Local Government Related Blogs">	
+		
+		</directory>
+	
+		<directory circuit="awards" description="The MJ Awards provides you with the opportunity to recognise all members of the team who have made your success possible. From best use of resources to workforce involvement Achievement  of the year there are 16 categories from which to choose." title="The MJ Achievement Awards 2008">	
+			<page description="" fuseaction="awards.home" keywords="" title="Home"/>
+		</directory>
+	
+</website>

@@ -1,0 +1,52 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:jobs-schema" elementFormDefault="qualified" targetNamespace="urn:jobs-schema">
+
+	<xsd:element name="jobs" type="jobstype" />
+	
+	<xsd:complexType name="jobstype">
+        <xsd:sequence>
+			 <xsd:element name="job" type="jobtype" minoccurs="0" maxoccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+	<xsd:complexType name="jobtype">
+		<xsd:sequence>
+			  <xsd:element name="jobid" 			type="xsd:integer" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="jobtitle" 			type="xsd:string" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="dateposted" 		type="xsd:dateTime"  minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="deadline" 			type="xsd:dateTime"  minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="county" 			type="xsd:string" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="iiplogo" 			type="xsd:boolean" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="eqoplogo" 			type="xsd:boolean" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="employer" 			type="xsd:string" 	 minOccurs="1" maxOccurs="1"/>
+			 <!-- <xsd:element name="organisation" 		type="xsd:string" 	 minOccurs="1" maxOccurs="1"/>-->
+			  <xsd:element name="salarybandlower" 	type="xsd:integer" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="salarybandupper" 	type="xsd:integer" 	 minOccurs="1" maxOccurs="1"/>
+			  <xsd:element name="description" 		type="xsd:string" 	 minOccurs="0" maxOccurs="1"/> 
+			  <xsd:element name="abstract" 			type="xsd:string" 	 minOccurs="0" maxOccurs="1" />  
+			  <xsd:element name="contracttype" 		type="xsd:string" 	 minOccurs="0" maxOccurs="1"/>
+			  <xsd:element name="joburl"  			type="xsd:string" 	 minOccurs="0" maxOccurs="1"/>	  
+			  <xsd:element name="sectors" 			type="sectors" 		 minOccurs="0" maxOccurs="1"/>
+			 <!-- <xsd:element name="supportingdoc" 	type="supportingdoc" minOccurs="0" maxOccurs="unbounded"/>-->
+		</xsd:sequence>
+    </xsd:complexType>
+	
+	<!--<xsd:complexType name="supportingdoc">
+		<xsd:sequence>
+			<xsd:attribute name="name" 			type="xsd:string"/>
+			<xsd:attribute name="filename" 		type="xsd:string"/>
+			<xsd:attribute name="url" 			type="xsd:string"/>
+			<xsd:attribute name="description" 	type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>-->
+	
+	<xsd:complexType name="sectors">
+		<xsd:sequence>
+			<xsd:attribute name="name" type="xsd:string" >
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	
+	
+
+	
+</xsd:schema>
