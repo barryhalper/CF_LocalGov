@@ -1,5 +1,5 @@
 # CF_LocalGov
-## Coldfusion application core for the 1st release of Localgov.co.uk from 2006
+## Coldfusion application core for the 1st release of Localgov.co.uk (2006)
 
 ####  his_localgov_config :
 xml application settings
